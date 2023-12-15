@@ -1,0 +1,24 @@
+// Passo 1: Criando um novo aplicativo React usando create-react-app
+
+// No terminal:
+// npx create-react-app meu-app
+// cd meu-app
+// npm start
+
+import React from 'react';
+
+// Passo 2: Criando um componente funcional
+function App() {
+  return (
+    <div>
+      <h1>Meu Primeiro Aplicativo React</h1>
+      <p>Olá, Mundo!</p>
+    </div>
+  );
+}
+
+export default App;
+
+// Passo 3: Rodando o aplicativo
+// No terminal, dentro da pasta do aplicativo:
+// npm start
