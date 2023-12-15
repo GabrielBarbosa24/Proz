@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lugares Turísticos na Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #34495e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #2c3e50;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .card {
+            margin: 10px;
+            padding: 20px;
+            background-color: #ecf0f1;
+            border-radius: 6px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #34495e;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares Turísticos na Europa</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Paris</a></li>
+            <li><a href="#">Roma</a></li>
+            <li><a href="#">Barcelona</a></li>
+            <li><a href="#">Londres</a></li>
+            <li><a href="#">Praga</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <div class="card">
+            <h2>Paris</h2>
+            <p>Texto sobre Paris...</p>
+        </div>
+
+        <div class="card">
+            <h2>Roma</h2>
+            <p>Texto sobre Roma...</p>
+        </div>
+
+        <!-- Adicione mais cards para outros lugares -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 - Lugares Turísticos</p>
+    </footer>
+</body>
+</html>
