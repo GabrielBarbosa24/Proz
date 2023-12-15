@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    int *ptr; // Criando um ponteiro para um inteiro
+
+    // Alocando memória para oito inteiros
+    ptr = (int *)malloc(8 * sizeof(int));
+    if (ptr == NULL) {
+        printf("Erro ao alocar memória.\n");
+        return 1;
+    }
+
+    printf("Memória alocada para oito inteiros.\n");
+
+    // Realocando memória para doze inteiros
+    ptr = (int *)realloc(ptr, 12 * sizeof(int));
+    if (ptr == NULL) {
+        printf("Erro ao realocar memória.\n");
+        return 1;
+    }
+
+    printf("Memória realocada para doze inteiros.\n");
+
+    // Liberando a memória alocada
+    free(ptr);
+    printf("Memória liberada.\n");
+
+    return 0;
+}
