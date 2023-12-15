@@ -1,0 +1,96 @@
+META ('<meta>')
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Exemplo de meta tags">
+    <title>Exemplo de Metadados</title>
+</head>
+<body>
+    <!-- Conteúdo do documento -->
+</body>
+</html>
+
+
+Serapação de conteúdo ('<div>') ('<span>')
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Separação de Conteúdo</title>
+</head>
+<body>
+    <div>
+        <h1>Divisão de Conteúdo</h1>
+        <p>Este é um parágrafo dentro de uma div.</p>
+    </div>
+
+    <span>
+        <h2>Span para Agrupamento</h2>
+        <p>Este é um parágrafo dentro de um span.</p>
+    </span>
+</body>
+</html>
+
+
+Texto ('<p>'), ('<h1>'), ('<h2>')
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Texto</title>
+</head>
+<body>
+    <h1>Título Principal</h1>
+    <p>Este é um parágrafo de texto.</p>
+
+    <h2>Subtítulo</h2>
+    <p>Outro parágrafo de texto.</p>
+</body>
+</html>
+
+
+Imagem ('<img>')
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Imagem</title>
+</head>
+<body>
+    <h1>Imagem</h1>
+    <img src="caminho/para/imagem.jpg" alt="Descrição da imagem">
+    
+    <h2>Outra Imagem</h2>
+    <img src="caminho/outra/imagem.png" alt="Descrição da outra imagem">
+</body>
+</html>
+
+
+Formulário ('<form>'), ('<input>')
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exemplo de Formulário</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="/submit_form" method="post">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h2>Formulário de Login</h2>
+    <form action="/login" method="post">
+        <label for="username">Usuário:</label>
+        <input type="text" id="username" name="username"><br><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <input type="submit" value="Login">
+    </form>
+</body>
+</html>
