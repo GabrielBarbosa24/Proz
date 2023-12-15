@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Minha Cidade - Página Principal</title>
+</head>
+
+<body>
+    <h1>Bem-vindo à Minha Cidade!</h1>
+    <p>Explore os lugares mais incríveis que eu adoro visitar por aqui.</p>
+
+    <a href="lugares-favoritos.html">Lugares Favoritos</a>
+</body>
+
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lugares Favoritos na Minha Cidade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .place {
+            margin-bottom: 30px;
+        }
+
+        .place img {
+            width: 100%;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Lugares Favoritos na Minha Cidade</h1>
+
+    <div class="container">
+        <div class="place">
+            <h2>Praça de eventos</h2>
+            <img src="praça-de-eventos.jpg" alt="Praça de Eventos">
+            <p>O Parque Central é um ótimo lugar para relaxar e desfrutar de eventos da cidade.</p>
+        </div>
+
+        <div class="place">
+            <h2>Cachoeira</h2>
+            <img src="cachoeira.jpg" alt="Cachoeira">
+            <p>A cachoeira dispõe de uma limpa corrente continua de água e é repleta de natureza verde.</p>
+        </div>
+
+        <!-- Adicione mais lugares favoritos com imagens e descrições -->
+    </div>
+</body>
+
+</html>
