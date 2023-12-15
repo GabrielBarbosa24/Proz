@@ -1,0 +1,20 @@
+import React, { useState } from 'react';
+
+function Counter() {
+  // Utilizando o hook useState para criar o estado do contador
+  const [count, setCount] = useState(0);
+
+  // Função para aumentar o valor do contador
+  const increment = () => {
+    setCount(count + 1);
+  };
+
+  return (
+    <div>
+      <p>Contagem: {count}</p>
+      <button onClick={increment}>Aumentar Contador</button>
+    </div>
+  );
+}
+
+export default Counter;
