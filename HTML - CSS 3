@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pedra do Coração - Bom Jesus dos Perdões</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui para estilização */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #007bff;
+            color: white;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Pedra do Coração - Bom Jesus dos Perdões</h1>
+    </header>
+
+    <div class="container">
+        <h2>Uma Maravilha Natural</h2>
+        <p>A Pedra do Coração, também conhecida como Pedra Grande, é uma formação rochosa singular em Bom Jesus dos Perdões, São Paulo. Com aproximadamente 30 metros de altura, essa pedra oferece uma vista espetacular da região.</p>
+
+        <img src="link-para-imagem-pedra-do-coracao.jpg" alt="Pedra do Coração - Bom Jesus dos Perdões">
+
+        <h3>Localização</h3>
+        <p>Endereço: Estrada Municipal BJJ-305, Bom Jesus dos Perdões, SP, Brasil</p>
+        <p>Telefone: (11) 9 8765-4321</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Pedra do Coração - Bom Jesus dos Perdões</p>
+    </footer>
+</body>
+
+</html>
