@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lugares Turísticos na Europa</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui para estilização */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lugares Turísticos na Europa</h1>
+        <p>Descubra alguns dos destinos mais incríveis para visitar na Europa!</p>
+    </header>
+
+    <div class="container">
+        <div class="card">
+            <img src="link-para-imagem" alt="Nome do Destino">
+            <h2>Paris, França</h2>
+            <p>Paris, conhecida como a Cidade Luz, é famosa pela Torre Eiffel, Museu do Louvre, Champs-Élysées e muito mais.</p>
+            <a href="link-para-mais-informacoes" target="_blank">Saiba Mais</a>
+        </div>
+
+        <div class="card">
+            <img src="link-para-imagem" alt="Nome do Destino">
+            <h2>Roma, Itália</h2>
+            <p>Roma é uma cidade rica em história e arte, com o Coliseu, o Vaticano, o Pantheon e a Fontana di Trevi.</p>
+            <a href="link-para-mais-informacoes" target="_blank">Saiba Mais</a>
+        </div>
+
+        <!-- Adicione mais cards para outros destinos -->
+
+    </div>
+</body>
+
+</html>
