@@ -1,0 +1,28 @@
+import React from 'react';
+
+// Componente funcional que recebe a prop "name"
+function Greeting(props) {
+  return (
+    <div>
+      <h1>Olá, {props.name}!</h1>
+      <p>Bem-vindo ao nosso site.</p>
+    </div>
+  );
+}
+
+export default Greeting;
+
+
+import React from 'react';
+import Greeting from './Greeting'; // Importa o componente Greeting
+
+function App() {
+  return (
+    <div className="App">
+      {/* Utilização do componente Greeting com a prop "name" */}
+      <Greeting name="João" />
+    </div>
+  );
+}
+
+export default App;
